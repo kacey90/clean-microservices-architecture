@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{832B615D-1C54-4E2F-8BAE-AFD972A247D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kacey90.MyFintechApp.BuildingBlocks.EventBus", "BuildingBlocks\EventBus\Kacey90.MyFintechApp.BuildingBlocks.EventBus.csproj", "{110A0080-9443-4822-BFF1-982B4C954F1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kacey90.MyFintechApp.BuildingBlocks.Domain", "BuildingBlocks\Domain\Kacey90.MyFintechApp.BuildingBlocks.Domain.csproj", "{2155988C-643E-41F0-8300-65B1D375F20C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kacey90.MyFintechApp.BuildingBlocks.Application", "BuildingBlocks\Application\Kacey90.MyFintechApp.BuildingBlocks.Application.csproj", "{FEB65F93-E879-4FA9-86B9-3A39D8B322CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kacey90.MyFintechApp.BuildingBlocks.Infrastructure", "BuildingBlocks\Infrastructure\Kacey90.MyFintechApp.BuildingBlocks.Infrastructure.csproj", "{38D4E9B7-166C-4802-A778-04747148EBD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{110A0080-9443-4822-BFF1-982B4C954F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110A0080-9443-4822-BFF1-982B4C954F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110A0080-9443-4822-BFF1-982B4C954F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110A0080-9443-4822-BFF1-982B4C954F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2155988C-643E-41F0-8300-65B1D375F20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2155988C-643E-41F0-8300-65B1D375F20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2155988C-643E-41F0-8300-65B1D375F20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2155988C-643E-41F0-8300-65B1D375F20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB65F93-E879-4FA9-86B9-3A39D8B322CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB65F93-E879-4FA9-86B9-3A39D8B322CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB65F93-E879-4FA9-86B9-3A39D8B322CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB65F93-E879-4FA9-86B9-3A39D8B322CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D4E9B7-166C-4802-A778-04747148EBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D4E9B7-166C-4802-A778-04747148EBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D4E9B7-166C-4802-A778-04747148EBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D4E9B7-166C-4802-A778-04747148EBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{110A0080-9443-4822-BFF1-982B4C954F1F} = {832B615D-1C54-4E2F-8BAE-AFD972A247D1}
+		{2155988C-643E-41F0-8300-65B1D375F20C} = {832B615D-1C54-4E2F-8BAE-AFD972A247D1}
+		{FEB65F93-E879-4FA9-86B9-3A39D8B322CF} = {832B615D-1C54-4E2F-8BAE-AFD972A247D1}
+		{38D4E9B7-166C-4802-A778-04747148EBD8} = {832B615D-1C54-4E2F-8BAE-AFD972A247D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2F31774-5508-476E-B1A2-6C2627EA0CF7}
+	EndGlobalSection
+EndGlobal

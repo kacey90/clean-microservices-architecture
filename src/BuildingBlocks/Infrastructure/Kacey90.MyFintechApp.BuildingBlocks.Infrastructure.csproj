@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Kacey90.MyFintechApp.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\Domain\Kacey90.MyFintechApp.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\EventBus\Kacey90.MyFintechApp.BuildingBlocks.EventBus.csproj" />
+  </ItemGroup>
+
+</Project>
